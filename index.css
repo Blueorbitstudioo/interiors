@@ -1084,3 +1084,18 @@ header .container {
     background-color: var(--text-dark);
     transform: translateY(-5px);
 }
+
+
+@media (max-width: 768px) {
+
+    .logo-link {
+        font-size: 24px;
+        margin-left: 15px;
+    }
+
+    .nav-links {
+        position: fixed;
+        top: 0;
+        left: -100%;
+    }
+}
