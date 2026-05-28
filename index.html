@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Siddhi Interiors</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header id="header">
+        <div class="container navbar">
+            <a href="#home" class="logo-link">
+                <!-- <img src="siddhi interior.jpeg" width="300px" height="80px" alt="Siddhi Interiors Logo"> -->
+                Interior Design
+            </a>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <div class="nav-right">
+                <button class="hamburger" id="hamburger">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Sidebar Overlay -->
+    <div class="sidebar-overlay" id="sidebarOverlay"></div>
+
+    <!-- Hero Section -->
+    <section id="home">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Design Your Dream Space</h1>
+                <p>“We are a professional interior design company that makes homes look beautiful and luxury, based on
+                    your personal style and needs.”</p>
+                <a href="#contact" class="btn">Get a Free Consultation</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <div class="container">
+            <h2 class="section-title">Our Expertise</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="fas fa-home service-icon"></i>
+                    <h3>Residentials</h3>
+                    <p>Creating personalized living spaces that reflect your taste and elevate your daily life.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-store service-icon"></i>
+                    <h3>Retail</h3>
+                    <p>Designing engaging commercial environments that attract customers and drive brand loyalty.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-concierge-bell service-icon"></i>
+                    <h3>Hospitality</h3>
+                    <p>Crafting memorable guest experiences through luxurious and comfortable spatial design.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-briefcase service-icon"></i>
+                    <h3>Workspaces</h3>
+                    <p>Optimizing modern office environments for collaboration, productivity, and wellbeing.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-building service-icon"></i>
+                    <h3>Corporate</h3>
+                    <p>State-of-the-art office designs that reflect corporate identity and foster professional growth.
+                    </p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-city service-icon"></i>
+                    <h3>Commercial Space</h3>
+                    <p>Tailored interiors for diverse commercial sectors, ensuring functionality and aesthetic appeal.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Complete Solutions Section -->
+    <section id="solutions" class="solutions-section">
+        <div class="container">
+            <h2 class="section-title">We Provide Complete Solutions</h2>
+            <div class="solutions-grid">
+                <div class="solution-card">
+                    <div class="solution-bg"
+                        style="background-image: url('https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=600&q=80');">
+                    </div>
+                    <div class="solution-content">
+                        <i class="fas fa-user-tie"></i>
+                        <h3>Interior Consultant</h3>
+                        <p>Expert guidance and comprehensive consultation for your design needs.</p>
+                    </div>
+                </div>
+                <div class="solution-card">
+                    <div class="solution-bg"
+                        style="background-image: url('https://images.unsplash.com/photo-1631679706909-1844bbd07221?auto=format&fit=crop&w=600&q=80');">
+                    </div>
+                    <div class="solution-content">
+                        <i class="fas fa-store-alt"></i>
+                        <h3>Retail Turnkey Project</h3>
+                        <p>Complete end-to-end solutions for dynamic and engaging retail spaces.</p>
+                    </div>
+                </div>
+                <div class="solution-card">
+                    <div class="solution-bg" style="background-image: url('3d_visualizer.webp');">
+                    </div>
+                    <div class="solution-content">
+
+                        <i class="fas fa-cube"></i>
+                        <h3>3D Visualizer</h3>
+                        <p>Stunning photorealistic renders to visualize your project before execution.</p>
+                    </div>
+                </div>
+                <div class="solution-card">
+                    <div class="solution-bg"
+                        style="background-image: url('https://images.unsplash.com/photo-1538688525198-9b88f6f53126?auto=format&fit=crop&w=600&q=80');">
+                    </div>
+                    <div class="solution-content">
+                        <i class="fas fa-city"></i>
+                        <h3>Commercial Turnkey Project</h3>
+                        <p>Comprehensive design and build services tailored for commercial environments.</p>
+                    </div>
+                </div>
+                <div class="solution-card">
+                    <div class="solution-bg"
+                        style="background-image: url('https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=600&q=80');">
+                    </div>
+                    <div class="solution-content">
+                        <i class="fas fa-hard-hat"></i>
+                        <h3>Turnkey Contractor</h3>
+                        <p>Single-point responsibility from concept to completion for seamless execution.</p>
+                    </div>
+                </div>
+                <div class="solution-card">
+                    <div class="solution-bg" style="background-image: url('pmc_services.jpg');">
+                    </div>
+                    <div class="solution-content">
+                        <i class="fas fa-clipboard-list"></i>
+                        <h3>PMC Service</h3>
+                        <p>Professional Project Management Consultancy to ensure quality and timely delivery.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+        <div class="container">
+            <h2 class="section-title">Featured Works</h2>
+            <div class="filter-btns">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="living">Living Room</button>
+                <button class="filter-btn" data-filter="bedroom">Bedroom</button>
+                <button class="filter-btn" data-filter="office">Office</button>
+                <button class="filter-btn" data-filter="corporate">Corporate</button>
+                <button class="filter-btn" data-filter="commercial">Commercial</button>
+                <button class="filter-btn" data-filter="kitchen">Kitchen</button>
+            </div>
+
+            <div class="portfolio-grid">
+                <!-- Portfolio Items -->
+                <div class="portfolio-item living"><img
+                        src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=800&q=80"
+                        alt="Living Room">
+                    <div class="portfolio-overlay">
+                        <h4>Modern Minimalist</h4>
+                        <p>Living Room</p>
+                    </div>
+                </div>
+                <div class="portfolio-item bedroom"><img
+                        src="https://images.unsplash.com/photo-1616594039964-ae9021a400a0?auto=format&fit=crop&w=800&q=80"
+                        alt="Bedroom">
+                    <div class="portfolio-overlay">
+                        <h4>Cozy Elegance</h4>
+                        <p>Bedroom</p>
+                    </div>
+                </div>
+                <div class="portfolio-item kitchen"><img
+                        src="https://images.unsplash.com/photo-1556910103-1c02745a872f?auto=format&fit=crop&w=800&q=80"
+                        alt="Kitchen">
+                    <div class="portfolio-overlay">
+                        <h4>Sleek Culinary Space</h4>
+                        <p>Kitchen</p>
+                    </div>
+                </div>
+                <div class="portfolio-item office"><img
+                        src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=800&q=80"
+                        alt="Office">
+                    <div class="portfolio-overlay">
+                        <h4>Executive Suite</h4>
+                        <p>Office</p>
+                    </div>
+                </div>
+                <div class="portfolio-item corporate"><img
+                        src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=800&q=80"
+                        alt="Corporate">
+                    <div class="portfolio-overlay">
+                        <h4>Innovation Hub</h4>
+                        <p>Corporate</p>
+                    </div>
+                </div>
+                <div class="portfolio-item commercial"><img
+                        src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=800&q=80"
+                        alt="Commercial">
+                    <div class="portfolio-overlay">
+                        <h4>Retail Plaza</h4>
+                        <p>Commercial</p>
+                    </div>
+                </div>
+                <div class="portfolio-item living"><img
+                        src="https://images.unsplash.com/photo-1583847268964-b28ce8f30e9c?auto=format&fit=crop&w=800&q=80"
+                        alt="Living Room">
+                    <div class="portfolio-overlay">
+                        <h4>Classic Comfort</h4>
+                        <p>Living Room</p>
+                    </div>
+                </div>
+                <div class="portfolio-item bedroom"><img
+                        src="https://images.unsplash.com/photo-1540518614846-7eded433c457?auto=format&fit=crop&w=800&q=80"
+                        alt="Bedroom">
+                    <div class="portfolio-overlay">
+                        <h4>Serene Retreat</h4>
+                        <p>Bedroom</p>
+                    </div>
+                </div>
+                <div class="portfolio-item kitchen"><img
+                        src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=800&q=80&sig=1"
+                        alt="Kitchen">
+                    <div class="portfolio-overlay">
+                        <h4>Modern Kitchen</h4>
+                        <p>Kitchen</p>
+                    </div>
+                </div>
+                <div class="portfolio-item office"><img
+                        src="https://images.unsplash.com/photo-1616594039964-ae9021a400a0?auto=format&fit=crop&w=800&q=80&sig=2"
+                        alt="Office">
+                    <div class="portfolio-overlay">
+                        <h4>Home Office</h4>
+                        <p>Office</p>
+                    </div>
+                </div>
+                <div class="portfolio-item living"><img
+                        src="https://images.unsplash.com/photo-1556910103-1c02745a872f?auto=format&fit=crop&w=800&q=80&sig=3"
+                        alt="Living Room">
+                    <div class="portfolio-overlay">
+                        <h4>Urban Living</h4>
+                        <p>Living Room</p>
+                    </div>
+                </div>
+                <div class="portfolio-item bedroom"><img
+                        src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=800&q=80&sig=4"
+                        alt="Bedroom">
+                    <div class="portfolio-overlay">
+                        <h4>Minimalist Bedroom</h4>
+                        <p>Bedroom</p>
+                    </div>
+                </div>
+                <div class="portfolio-item kitchen"><img
+                        src="https://images.unsplash.com/photo-1583847268964-b28ce8f30e9c?auto=format&fit=crop&w=800&q=80&sig=5"
+                        alt="Kitchen">
+                    <div class="portfolio-overlay">
+                        <h4>Chef's Kitchen</h4>
+                        <p>Kitchen</p>
+                    </div>
+                </div>
+                <div class="portfolio-item office"><img
+                        src="https://images.unsplash.com/photo-1540518614846-7eded433c457?auto=format&fit=crop&w=800&q=80&sig=6"
+                        alt="Office">
+                    <div class="portfolio-overlay">
+                        <h4>Creative Studio</h4>
+                        <p>Office</p>
+                    </div>
+                </div>
+                <div class="portfolio-item living"><img
+                        src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=800&q=80&sig=7"
+                        alt="Living Room">
+                    <div class="portfolio-overlay">
+                        <h4>Luxury Living</h4>
+                        <p>Living Room</p>
+                    </div>
+                </div>
+                <div class="portfolio-item bedroom"><img
+                        src="https://images.unsplash.com/photo-1616594039964-ae9021a400a0?auto=format&fit=crop&w=800&q=80&sig=8"
+                        alt="Master Suite">
+                    <div class="portfolio-overlay">
+                        <h4>Master Suite</h4>
+                        <p>Bedroom</p>
+                    </div>
+                </div>
+                <div class="portfolio-item kitchen"><img
+                        src="https://images.unsplash.com/photo-1556910103-1c02745a872f?auto=format&fit=crop&w=800&q=80&sig=9"
+                        alt="Kitchen">
+                    <div class="portfolio-overlay">
+                        <h4>Open Plan Kitchen</h4>
+                        <p>Kitchen</p>
+                    </div>
+                </div>
+                <div class="portfolio-item office"><img
+                        src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=800&q=80&sig=10"
+                        alt="Office">
+                    <div class="portfolio-overlay">
+                        <h4>Corporate Office</h4>
+                        <p>Office</p>
+                    </div>
+                </div>
+                <div class="portfolio-item living"><img
+                        src="https://images.unsplash.com/photo-1583847268964-b28ce8f30e9c?auto=format&fit=crop&w=800&q=80&sig=11"
+                        alt="Living Room">
+                    <div class="portfolio-overlay">
+                        <h4>Cozy Living</h4>
+                        <p>Living Room</p>
+                    </div>
+                </div>
+                <div class="portfolio-item bedroom"><img
+                        src="https://images.unsplash.com/photo-1540518614846-7eded433c457?auto=format&fit=crop&w=800&q=80&sig=12"
+                        alt="Bedroom">
+                    <div class="portfolio-overlay">
+                        <h4>Guest Room</h4>
+                        <p>Bedroom</p>
+                    </div>
+                </div>
+                <div class="portfolio-item kitchen"><img
+                        src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=800&q=80&sig=13"
+                        alt="Kitchen">
+                    <div class="portfolio-overlay">
+                        <h4>Rustic Kitchen</h4>
+                        <p>Kitchen</p>
+                    </div>
+                </div>
+                <div class="portfolio-item office"><img
+                        src="https://images.unsplash.com/photo-1616594039964-ae9021a400a0?auto=format&fit=crop&w=800&q=80&sig=14"
+                        alt="Office">
+                    <div class="portfolio-overlay">
+                        <h4>Modern Workspace</h4>
+                        <p>Office</p>
+                    </div>
+                </div>
+                <div class="portfolio-item living"><img
+                        src="https://images.unsplash.com/photo-1556910103-1c02745a872f?auto=format&fit=crop&w=800&q=80&sig=15"
+                        alt="Living Room">
+                    <div class="portfolio-overlay">
+                        <h4>Elegant Lounge</h4>
+                        <p>Living Room</p>
+                    </div>
+                </div>
+                <div class="portfolio-item bedroom"><img
+                        src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=800&q=80&sig=16"
+                        alt="Bedroom">
+                    <div class="portfolio-overlay">
+                        <h4>Boutique Bedroom</h4>
+                        <p>Bedroom</p>
+                    </div>
+                </div>
+                <div class="portfolio-item kitchen"><img
+                        src="https://images.unsplash.com/photo-1583847268964-b28ce8f30e9c?auto=format&fit=crop&w=800&q=80&sig=17"
+                        alt="Kitchen">
+                    <div class="portfolio-overlay">
+                        <h4>Galley Kitchen</h4>
+                        <p>Kitchen</p>
+                    </div>
+                </div>
+                <div class="portfolio-item office"><img
+                        src="https://images.unsplash.com/photo-1540518614846-7eded433c457?auto=format&fit=crop&w=800&q=80&sig=18"
+                        alt="Office">
+                    <div class="portfolio-overlay">
+                        <h4>Startup Office</h4>
+                        <p>Office</p>
+                    </div>
+                </div>
+                <div class="portfolio-item living"><img
+                        src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=800&q=80&sig=19"
+                        alt="Living Room">
+                    <div class="portfolio-overlay">
+                        <h4>Penthouse View</h4>
+                        <p>Living Room</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="see-all-container" style="text-align: center; margin-top: 3rem;">
+                <a href="project.html" id="seeAllBtn" class="btn"
+                    style="display: inline-block; text-decoration: none;">See All Projects</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Client Logos Section -->
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title">Our Clients</h2>
+            <div class="client-logos-slider">
+                <div class="client-logos-track">
+                    <!-- Original Logos -->
+                    <div class="client-logo"><i class="fas fa-building"></i> <span>CityCorp</span></div>
+                    <div class="client-logo"><i class="fas fa-hotel"></i> <span>Grand Hotels</span></div>
+                    <div class="client-logo"><i class="fas fa-store"></i> <span>RetailPlus</span></div>
+                    <div class="client-logo"><i class="fas fa-hospital"></i> <span>MedCare</span></div>
+                    <div class="client-logo"><i class="fas fa-landmark"></i> <span>Heritage Grp</span></div>
+                    <div class="client-logo"><i class="fas fa-industry"></i> <span>Prime Ind.</span></div>
+
+                    <!-- Duplicated Logos for Infinite Scroll -->
+                    <div class="client-logo"><i class="fas fa-building"></i> <span>CityCorp</span></div>
+                    <div class="client-logo"><i class="fas fa-hotel"></i> <span>Grand Hotels</span></div>
+                    <div class="client-logo"><i class="fas fa-store"></i> <span>RetailPlus</span></div>
+                    <div class="client-logo"><i class="fas fa-hospital"></i> <span>MedCare</span></div>
+                    <div class="client-logo"><i class="fas fa-landmark"></i> <span>Heritage Grp</span></div>
+                    <div class="client-logo"><i class="fas fa-industry"></i> <span>Prime Ind.</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title text-left" style="margin-bottom: 1.5rem;">Who We Are</h2>
+
+                    <h3>Siddhi Interiors</h3>
+
+                    <p><strong>SIDDHI INTERIORS</strong> is a dynamic organization specializing in interior designing
+                        and turnkey contracting. Founded in 2010 by Amit Kadam, the company is driven by creativity,
+                        precision, and a passion for transforming spaces.</p>
+
+                    <p>We are backed by a team of expert and experienced professionals who bring innovation and quality
+                        craftsmanship to every project.</p>
+
+                    <p>We design and execute all types of interiors, including Corporate Offices, Retail Spaces, and
+                        Residential Projects, delivering functional and aesthetically refined environments tailored to
+                        client needs.</p>
+                </div>
+                <div class="about-img">
+                    <img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+                        alt="Interior Design Studio">
+                </div>
+            </div>
+
+            <h3 style="text-align: center; margin-bottom: 3rem; font-size: 2rem;">Meet The Team</h3>
+            <div class="team-grid">
+                <div class="team-member">
+                    <div class="member-img">
+                        <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
+                            alt="Elena Rodriguez">
+                    </div>
+                    <h4>Elena Rodriguez</h4>
+                    <p>Founder & Principal Designer</p>
+                </div>
+                <div class="team-member">
+                    <div class="member-img">
+                        <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
+                            alt="Marcus Chen">
+                    </div>
+                    <h4>Marcus Chen</h4>
+                    <p>Lead Architect</p>
+                </div>
+                <div class="team-member">
+                    <div class="member-img">
+                        <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
+                            alt="Sophia Lauren">
+                    </div>
+                    <h4>Sophia Lauren</h4>
+                    <p>Senior Stylist</p>
+                </div>
+                <div class="team-member">
+                    <div class="member-img">
+                        <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
+                            alt="David Kim">
+                    </div>
+                    <h4>David Kim</h4>
+                    <p>Project Manager</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt info-icon"></i>
+                        <div>
+                            <h4>Our Studio</h4>
+                            <p>103/ 1st floor Garthwaite House, NM Joshi Marg,
+                                Parel (W), Railway colony, Lower parel, Mumbai 400013.</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope info-icon"></i>
+                        <div>
+                            <h4>Email Us</h4>
+                            <p>
+                                <a href="mailto:amit.k@siddhiinteriors.in">amit.k@siddhiinteriors.in</a><br>
+                                <a href="mailto:siddhi.int@gmail.com">siddhi.int@gmail.com</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone-alt info-icon"></i>
+                        <div>
+                            <h4>Call Us</h4>
+                            <p>+91 9594080820<br>Mon-Sat, 10am - 6:30pm</p>
+                        </div>
+                    </div>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="https://wa.me/919594080820"><i class="fab fa-whatsapp"></i></a>
+
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-houzz"></i></a>
+                    </div>
+                </div>
+
+                <form class="contact-form" action="https://formsubmit.co/ramukanbarkar111@gmail.com" method="POST">
+
+                    <!-- FormSubmit Settings -->
+                    <input type="hidden" name="_subject" value="New Contact Form Submission - Siddhi Interiors">
+                    <input type="hidden" name="_captcha" value="false">
+
+                    <div class="input-group">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                    </div>
+
+                    <div class="input-group">
+                        <input type="email" name="email" placeholder="Your Email" required>
+                    </div>
+
+                    <div class="input-group">
+                        <input type="tel" name="phone" placeholder="Your Phone">
+                    </div>
+
+                    <div class="input-group">
+                        <textarea name="message" placeholder="Tell us about your project..." required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+
+            <!-- Google Maps Embed -->
+            <div class="map-container">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3772.45910849687!2d72.8283757749753!3d18.99948068218937!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7cef27d4a2c8b%3A0xec3c15b97ce828fc!2sGarthwaite%20House!5e0!3m2!1sen!2sin!4v1776851606494!5m2!1sen!2sin"
+                    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- Footer -->
+    <footer class="modern-footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <div class="footer-logo-wrapper">
+                        <img src="logo-siddhi_interior.jpeg" width="250px" alt="Siddhi Interiors">
+                    </div>
+                    <p class="footer-desc">Transforming spaces into luxurious, personalized environments that reflect
+                        your unique style and vision.</p>
+                    <div class="footer-socials">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="https://wa.me/919594080820"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-houzz"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-links-col">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-contact-col">
+                    <h3>Contact Us</h3>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> 103/ 1st floor Garthwaite House, Lower Parel, Mumbai
+                        </li>
+                        <li><i class="fas fa-phone-alt"></i> <a href="tel:+919594080820">+91 9594080820</a></li>
+                        <li><i class="fas fa-envelope"></i> <a
+                                href="mailto:amit.k@siddhiinteriors.in">amit.k@siddhiinteriors.in</a></li>
+                    </ul>
+                </div>
+
+
+            </div>
+
+            <div class="footer-bottom">
+                <p class="copyright">&copy; 2024 Siddhi Interiors. All Rights Reserved.</p>
+
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollToTopBtn" class="scroll-to-top" aria-label="Scroll to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- JavaScript -->
+    <script src="index.js"></script>
+</body>
+
+</html>
